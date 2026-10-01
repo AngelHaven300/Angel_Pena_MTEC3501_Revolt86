@@ -25,10 +25,8 @@ The participent sits across an 8x12 grid game board, then selects 5 physical tra
 
 ## System Description
 
-[Describe operationally how the project works: inputs, processing or transformation, outputs, and the people, tools, software, hardware, or environment involved. Distinguish what is currently known from what remains uncertain.]
+The project operates as an electronic table top game system built around a microcomputer mounted within a 8x12 grid. Inputs consist of a physical 6 sided bluetooth die that transmits roll values. There will be 96 RFID readers that scan each indivdual piece on the boardand two more RFID readers that read which cards are active and discarded. The Microcomputer takes these inputs and interprets it with the already programmed game logic and then updates the display. There are LED's under the board that flash patterns. Health will be diplayed on the display as well. Uncertain elements inlcude the implementation of Wi-fi syncronization to a mobile app, cloud updates, and the digital translation of complex cards. 
 
 ## Explicit Dependency
 
-[Name the critical condition the project depends on. Explain what would fail or change if the condition cannot be met.]
-
-Example: “This depends on low-latency input response so participants can perceive cause and effect. If the delay is too long, the interaction will not feel connected to their actions.”
+This project depends on the Microcomputer reliably reading the RFID sensors and the card readers in real time without latency when scanning or any signal cross talk between adjacent RFID readers. If the sensor grid fails to accurately register piece lifts, placements, or card reads within milliseconds, the board cannot update its LED movement pathways or apply the correct card logic and this breaks the real time turn structure and this will render the automated game rules non-functional. 
