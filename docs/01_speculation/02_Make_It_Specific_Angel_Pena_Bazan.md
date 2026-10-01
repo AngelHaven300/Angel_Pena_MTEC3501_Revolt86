@@ -4,24 +4,24 @@ Copy this file into your individual project repository, then replace every brack
 
 ## Student / Team
 
-[Name of student or team]
-[Date]
+Angel Pena Bazan
+10/1/26
 
 ## Working Title
 
-[Provisional project title]
+Revolt 86
 
 ## Project Format
 
-[Identify the form of the project: for example, installation, game, performance, interactive tool, animation, or research project. Name the likely platform or medium if known.]
+Game
 
 ## Project Description
 
-[In one sentence, state what the project is and what it does.]
+Revolt 86 is a tactical two player game where players deploy custom card decks, and roll to split movement and shooting across an 8 x 12 board, and fight to destroy their opponents Mothership. 
 
 ## User / Integrator Experience
 
-[In 5–7 sentences, describe what the participant, audience member, or integrator does and experiences. Explain the sequence of interaction and what they perceive. Avoid unsupported terms such as “immersive” or “interactive”; describe the actual actions and responses.]
+The participent sits across an 8x12 grid game board, then selects 5 physical trading cards from the top of their deck, and rolls a wireless bluetooth die onto the table. When lifting a piece from it's square, LED's from underneat the board immediately light up valid paths to move or shoot in, (Green for movement and orange for shooting) based on the pieces movement set and remaining die points. The player chooses a target piece in the board by tapping it, causing the board to flash an animation while a display updates the remaining movement and health. To activate special abilities or fire the mothership, the player places an RFID tagged card onto the dedicated card reader zone on the board frame. This in turn alters the active LED's and rules on the grid. As pieces take damage, players manually slide damage counters underneath the pieces. The board tracks eliminations and will signal the player to draw a new card. 
 
 ## System Description
 
