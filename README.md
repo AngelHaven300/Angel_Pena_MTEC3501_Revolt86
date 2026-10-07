@@ -10,12 +10,15 @@ The class repository contains course materials, assignments, shared activities, 
 
 ## Project
 
-**Student:**
-**Project Title:**
-**Current Project Description:**
-**MTEC 3501 Semester:**
-**Instructor:**
+Angel Pena Bazan 
 
+Revolt 86
+
+Revolt 86 is a tactical two player game where players deploy custom card decks, and roll to split movement and shooting across an 8 x 12 board, and fight to destroy their opponents Mothership. 
+
+MTEC3501 - Fall Semester
+
+Prof. David Smith
 ---
 
 ## Repository Navigation
