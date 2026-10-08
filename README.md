@@ -20,16 +20,11 @@ Prof. David Smith
 
 ## Repository Navigation
 
-- [`docs/01_speculation/`](docs/01_speculation/README.md) — initial concepts, brainstorming, aspirational versions
-- [`docs/02_research/`](docs/02_research/README.md) — precedent/technical research, references, feasibility
-- [`docs/03_design/`](docs/03_design/README.md) — design documentation, diagrams, specifications
-- [`docs/04_production/`](docs/04_production/README.md) — build, programming, fabrication, testing, integration notes
-- [`docs/05_presentation/`](docs/05_presentation/README.md) — presentations, demos, portfolio material
-- [`docs/06_assessment/`](docs/06_assessment/README.md) — self-assessment, critique, feedback, reflection
-- [`project-log.md`](project-log.md) — chronological record of discoveries, decisions, problems, and next steps
-- [`prototype/`](prototype/README.md) — the working Proof of Concept and implementation material
-- [`assets/`](assets/README.md) — supporting media (diagrams, images, audio, video, data)
-- [`deliverables/`](deliverables/README.md) — selected material prepared for formal submission/presentation
+[`Revolt 86 - Detailed Speculative Proposal`](docs/01_speculation/03_Detailed_Speculative_Proposal_Angel_Pena_Bazan.md)
+
+---
+
+[`Revolt 86 - Research Markdown Document`](docs/02_research/05_Research_Markdown_Document_Angel_pena_Bazan.md)
 
 ---
 

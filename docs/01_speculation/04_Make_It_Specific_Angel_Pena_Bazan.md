@@ -1,6 +1,3 @@
-# Make It Specific Template
-
-Copy this file into your individual project repository, then replace every bracketed prompt with your own content. Remove the instructions and brackets from your finished document. Save the completed file as `docs/01_speculation/02_Make_It_Specific.md`.
 
 ## Student / Team
 
