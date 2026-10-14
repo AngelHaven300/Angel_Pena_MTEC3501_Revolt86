@@ -10,7 +10,7 @@ Revolt 86
 
 ## Project Format
 
-Game
+Game, Physical Computing.
 
 ## Project Description
 

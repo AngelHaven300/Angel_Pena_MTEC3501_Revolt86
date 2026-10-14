@@ -67,24 +67,48 @@ By MTEC 4501 the project will demonstrate a prototype board that has all 96 RFID
 
 *What Feels Strong?*
 
-Core Game Mechanics & Design: High confidence in the turn-based structure, the 8×12 grid layout, vector movement rules, and card-based ability interactions.
+High confidence in the turn-based structure, the 8×12 grid layout, vector movement rules, and card-based ability interactions.
 
-Asset Creation & 3D Modeling: Complete confidence in designing, modeling, and 3D-printing the physical mechs, Mothership pieces, and art style inspired by Titanfall 2.
+Complete confidence in designing, modeling, and 3D-printing the physical mechs, Mothership pieces, and art style inspired by Titanfall 2.
 
-Graphic Design & Worldbuilding: The visual theme, dystopian narrative, card art execution, and physical board aesthetic are fully realized creative strengths.
+The visual theme, dystopian narrative, card art execution, and physical board aesthetic are fully realized creative strengths.
 
 *What Feels Weak?*
 
-Hardware Reliability Assumption: Assuming that dozens of off-the-shelf electronic modules can run simultaneously over long gaming sessions without overheating, losing signal, or crashing.
+Assuming that dozens of off-the-shelf electronic modules can run simultaneously over long gaming sessions without overheating, losing signal, or crashing.
 
-Digital Translation Gap: Assuming that every unique card effect, trap trigger, or complex board modifier can be cleanly represented in microcontroller code without creating game-breaking edge cases.
+Assuming that every unique card effect, trap trigger, or complex board modifier can be cleanly represented in microcontroller code without creating game-breaking edge cases.
 
-Hardware-to-Mobile Latency: Assuming low-latency Wi-Fi/Bluetooth synchronization between the physical ESP32 board, health bars, and the mobile application backend.
+Assuming low-latency Wi-Fi/Bluetooth synchronization between the physical ESP32 board, health bars, and the mobile application backend.
 
 *What Needs Testing?*
 
-Proof-of-Concept Sensors: Wire a small 4-square RFID and LED circuit using to test signal interference, scanning latency, and piece-detection speed before committing to the full 96-square PCB.
+Wire a small 4-square RFID and LED circuit using to test signal interference, scanning latency, and piece-detection speed before committing to the full 96-square PCB.
 
-Bluetooth Die and Display Bridge: Test whether the ESP32 can continuously maintain a Bluetooth Low Energy connection with the wireless die while simultaneously updating the touch screen UI.
+Test whether the ESP32 can continuously maintain a Bluetooth Low Energy connection with the wireless die while simultaneously updating the touch screen UI.
 
-RF Signal Cross-Talk: Place two RFID-tagged 3D printed pieces on adjacent squares to verify if the RFID readers misread between tight grid spaces.
+Place two RFID-tagged 3D printed pieces on adjacent squares to verify if the RFID readers misread between tight grid spaces.
+
+---
+
+## Miracle Questions and Unknowns.
+
+Will a Bluetooth die be the most viable form of communicating to the microcontroller, the number that a player has rolled? 
+
+If the Bluetooth die isn't sufficiently responsive or accurate as a classic die, the flow of the game will not only be slow but inaccurate and unfair. The board will not know what the player has rolled and the game gets stuck. 
+
+Researching a compatible die that connects to the Microcomputer in the board will be the first step, next would be testing that die out. If the Bluetooth die is fiund not viable then we must research ways to implement a dice roll into the game, whether it is through the display itself or a feature of the Revolt 86 app. 
+
+
+How big should the spiral of copper be on the PCB Trace Antenna? 
+
+The PCB Trace Antenna is responsible for recieving information of what piece is currently on the board as it uses magnetic induction over a short range to read the information on the RFID sticker inside the base of a piece. If the spiral is not big enough then the board will not be able to read the information on the RFID sticker. But if it's too big then the board will read multiple pieces on the board and it breaks the game logic. 
+
+Researching the correlation between the sizes of the traces and its range of its magnetic field will be crucial before ordering the PCB through a Manufacturer. 
+
+
+What method of joining the pieces of the board should be used? 
+
+The 3D printer being used is not capable of printing a board big enough to satisfy the size requirment needed. So the answer is to split the board up into pieces, so it will fit onto the build plate. After doing so now comes the question of how should we join these pieces together providing stability so that there is little to no movement when the board is being played on. The method to be used should also succeed in providing strength in its joints so it will not fall apart during play or transport and should be easily disassembled. 
+
+Designing different models of the board with different methods of joining them together will test which one is most cost and time efficient as well as it's effectivness. 
