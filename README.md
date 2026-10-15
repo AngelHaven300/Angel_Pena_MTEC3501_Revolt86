@@ -28,3 +28,6 @@ Prof. David Smith
 
 ---
 
+[`Revolt 86 Slides`](https://docs.google.com/presentation/d/11mBtG1om5zA1fnrSjH4hW-tZaKaSqlAxM_T1jeKiWoc/edit?usp=sharing)
+
+---
