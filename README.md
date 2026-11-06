@@ -31,3 +31,18 @@ Prof. David Smith
 [`Revolt 86 Slides`](https://docs.google.com/presentation/d/11mBtG1om5zA1fnrSjH4hW-tZaKaSqlAxM_T1jeKiWoc/edit?usp=sharing)
 
 ---
+
+[`Revolt 86 - Make it Specific Document`](docs/01_speculation/04_Make_It_Specific_Angel_Pena_Bazan.md)
+
+---
+
+[`Revolt 86 - Process Diagram`](docs/01_speculation/Process_Diagram.png)
+
+---
+
+[`Revolt 86 - Fall 2026 Roadmap`](docs/01_speculation/REVOLT86_Fall_2026_RoadMap.png)
+
+---
+
+[`Revolt 86 - Zotero Collection`](https://www.zotero.org/groups/5864194/mtec-/collections/NQEVBW5V/collection)
+
